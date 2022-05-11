@@ -7,6 +7,7 @@
     margin: 0 auto;
     position: relative;
     height:50px;
+    background:transparent;
 }
 .navbar .nav-container{
     display: flex;
@@ -17,6 +18,7 @@
     display: flex;
     align-items: center;
     margin: 0px 20px;
+    color:#fff;
 }
 
 .navbar .nav-container .nav-items .nav-icon{

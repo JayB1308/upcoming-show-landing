@@ -1,13 +1,14 @@
 .reviews{
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 100%;
+    overflow-x: hidden;
     margin: 0 auto;
-    padding: 0.8rem 1rem;
+    background-color: black;
 }
 
-
 .reviews .header{
+    color:white;
     display: flex;
     align-items: center;
     justify-content: space-between;

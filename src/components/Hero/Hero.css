@@ -1,5 +1,6 @@
 .hero{
     height: 90%;
+    background: transparent;
 }
 .hero .hero-container
 {
@@ -7,6 +8,7 @@
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
+    color:#fff;
 }
 .hero .hero-container .hero-content{
     margin-top: 200px;

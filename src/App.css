@@ -6,3 +6,7 @@
   transition: 0.3s ease-in-out all;
   font-family: "Open Sans", 'sans-serif';
 }
+.hero-banner{
+  background-image: url("./images/hero-image.png");
+  background-repeat: repeat;
+}

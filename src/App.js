@@ -6,8 +6,10 @@ import Review from './components/Reviews/Review';
 function App() {
   return (
     <>
+    <div className="hero-banner">
     <Navbar />
     <Hero />
+    </div>
     <UpcomingShows />
     <Review />
     </>
