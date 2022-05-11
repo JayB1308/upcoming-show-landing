@@ -1,0 +1,48 @@
+.reviews{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0.8rem 1rem;
+}
+
+
+.reviews .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviews .header .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem 1rem;
+}
+.reviews .header .pagination .page-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.reviews .header .pagination .page-group .page{
+    font-size: 1rem;
+}
+.reviews .header .pagination .page-group .page .current-page{
+    color:gray;
+}
+.reviews .header .pagination .page-group .arrows{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 10px;
+}
+.reviews .header .pagination .page-group .arrows .arrow-icon{
+    font-size: 1.15rem;
+    margin-left: 10px;
+    color:gray;
+}
+.reviews .review-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+    width: 100%;
+}

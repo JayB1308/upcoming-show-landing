@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width:80%;
+    margin: 0 auto;
+    position: relative;
+    height:50px;
+}
+.navbar .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .nav-container .nav-items{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.navbar .nav-container .nav-items .nav-icon{
+    margin:0px 5px;
+    font-size: 1.15rem;
+}

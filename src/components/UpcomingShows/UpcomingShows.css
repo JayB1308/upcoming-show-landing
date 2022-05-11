@@ -1,0 +1,42 @@
+.upcoming-shows{
+    width:100%;
+    margin-top: 2rem;
+}
+.upcoming-shows .upcoming-container{
+    padding:10px 20px;
+    width: 90%;
+    margin: 0.5rem auto;
+}
+.upcoming-shows .upcoming-container .header{
+    padding: 1rem 3.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.upcoming-shows .upcoming-container .header .heading{
+}
+.upcoming-shows .upcoming-container .header .heading h2{
+    font-size: 2rem;
+}
+
+.upcoming-shows .upcoming-container .upcoming-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.upcoming-shows .upcoming-container .upcoming-cards .upcoming-card{
+    width:250px;
+    border-radius: 10px;
+}
+.upcoming-shows .upcoming-container .upcoming-cards .upcoming-card .card-image{
+    width: 100%;
+    border-radius: 10px;
+}
+.upcoming-shows .upcoming-container .upcoming-cards .upcoming-card .card-image img{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
