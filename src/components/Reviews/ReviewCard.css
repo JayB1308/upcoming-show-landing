@@ -1,7 +1,13 @@
 .review-card{
-    width: 30%;
-    height: 40vh;
-    color:white
+    width: 25%;
+    height: 15rem;
+    color:white;
+    border: 1px solid #E5AF56;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 10px -10px #276C73;
 }
 
 .review-card .card-header{
@@ -13,6 +19,18 @@
 .review-card .card-header .image-container{
     margin-right: 1rem;
 }
+.review-card .card-header .name-container h3{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', 'sans-serif';
+    line-height: 2rem;
+}
+.review-card .card-header .name-container .location-container{
+    margin-bottom: 1rem;
+    color:#E5AF56;
+    font-weight: 600;
+}
 .review-card .card-body{
-    padding:10px 15px;
+    padding: 5px 20px;
+    line-height: 1.5rem;
 }
