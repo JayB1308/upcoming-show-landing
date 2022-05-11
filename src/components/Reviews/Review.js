@@ -8,6 +8,7 @@ import review2 from "../../images/review-2.png";
 import review3 from "../../images/review-3.png";
 const Review = () => {
 
+  //Array containing the reviews and user avatars
   const reviews =[
     {
       image: review1,
@@ -36,6 +37,7 @@ const Review = () => {
                 <h2>Reviews</h2>
                 <div className="underline"></div>
             </div>
+            {/*Pagination Arrows*/}
             <div className="pagination">
               <div className="page-group">
                   <p className='page'><span className='current-page'>1</span>/12</p>

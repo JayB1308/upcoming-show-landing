@@ -3,6 +3,8 @@ import "./Hero.css";
 import Label from '../Label/Label';
 const Hero = () => {
   return (
+    <>
+    {/*The hero container having the title and subtitle*/}
       <div className="hero">
         <div className="hero-container">
         <div className="hero-content">
@@ -12,6 +14,7 @@ const Hero = () => {
         <Label />
         </div>
       </div>   
+      </>
   )
 }
 

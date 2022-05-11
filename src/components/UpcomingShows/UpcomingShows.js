@@ -6,6 +6,7 @@ import {IoTicketSharp} from "react-icons/io5";
 const UpcomingShows = () => {
   return (
     <div className="upcoming-shows">
+
         <div className="upcoming-container">
             <div className="header">
                 <div className="heading">
@@ -14,6 +15,7 @@ const UpcomingShows = () => {
                 </div>
                 <div className="link">View All</div>
             </div>
+            {/*The Upcoming shows*/}
             <div className="upcoming-cards">
                         <div className="upcoming-card">
                         <div className="card-image">
@@ -31,6 +33,7 @@ const UpcomingShows = () => {
                             <IoTicketSharp />
                         </div>
                     </div>
+                    {/*Upcoming show cards*/}
                     <div className="upcoming-card">
                     <div className="card-image">
                         <img src={require("../../images/vijay-yesudata.png")} alt="artist" />

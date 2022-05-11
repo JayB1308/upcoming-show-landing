@@ -3,6 +3,7 @@ import "./ReviewCard.css";
 const ReviewCard = ({image,name,location,comment}) => {
   return (
     <div className="review-card">
+      {/*Each review card*/}
         <div className="card-header">
         <div className="image-container">
           <img src={image} alt="avatar" />
